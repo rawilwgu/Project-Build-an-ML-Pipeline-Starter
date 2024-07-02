@@ -1,0 +1,32 @@
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project rawilwgu/nyc_airbnb does not contain artifact: "trainval_data.csv:latest"
+Traceback (most recent call last):
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/apis/public.py", line 949, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/apis/public.py", line 4343, in __init__
+    self._load()
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/apis/public.py", line 5072, in _load
+    raise ValueError(
+ValueError: Project rawilwgu/nyc_airbnb does not contain artifact: "trainval_data.csv:latest"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 299, in <module>
+    go(args)
+  File "/home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 56, in go
+    trainval_local_path = run.use_artifact(args.trainval_artifact).file()
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 333, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2617, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/apis/normalize.py", line 64, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/apis/public.py", line 949, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/apis/public.py", line 4343, in __init__
+    self._load()
+  File "/home/rawilwgu/miniconda3/envs/mlflow-38d125378780b724e555676b401b3ff88134b4f4/lib/python3.9/site-packages/wandb/apis/public.py", line 5072, in _load
+    raise ValueError(
+wandb.errors.CommError: Project rawilwgu/nyc_airbnb does not contain artifact: "trainval_data.csv:latest"

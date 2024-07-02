@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e3051a2ab58245d5b5b363b31ec6f2df/artifacts
+end_time: 1719884940244
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e3051a2ab58245d5b5b363b31ec6f2df
+run_name: likeable-shad-221
+run_uuid: e3051a2ab58245d5b5b363b31ec6f2df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719884926455
+status: 3
+tags: []
+user_id: rawilwgu

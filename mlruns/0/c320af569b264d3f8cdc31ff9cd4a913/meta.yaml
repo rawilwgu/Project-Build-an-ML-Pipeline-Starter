@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c320af569b264d3f8cdc31ff9cd4a913/artifacts
+end_time: 1719886877902
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c320af569b264d3f8cdc31ff9cd4a913
+run_name: serious-hawk-654
+run_uuid: c320af569b264d3f8cdc31ff9cd4a913
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719886858329
+status: 3
+tags: []
+user_id: rawilwgu

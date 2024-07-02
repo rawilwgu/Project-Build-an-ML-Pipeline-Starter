@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e703109c600a44e7ad6a2f30a94c8897/artifacts
+end_time: 1719886068202
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e703109c600a44e7ad6a2f30a94c8897
+run_name: masked-fawn-670
+run_uuid: e703109c600a44e7ad6a2f30a94c8897
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719886057716
+status: 3
+tags: []
+user_id: rawilwgu

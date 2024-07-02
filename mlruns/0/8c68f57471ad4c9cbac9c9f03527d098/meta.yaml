@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8c68f57471ad4c9cbac9c9f03527d098/artifacts
+end_time: 1719884835166
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8c68f57471ad4c9cbac9c9f03527d098
+run_name: able-finch-564
+run_uuid: 8c68f57471ad4c9cbac9c9f03527d098
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719884821129
+status: 3
+tags: []
+user_id: rawilwgu

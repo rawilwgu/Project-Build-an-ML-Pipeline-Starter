@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b535cd90e8ee49e48ebdf97cf735983d/artifacts
+end_time: 1719887070203
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b535cd90e8ee49e48ebdf97cf735983d
+run_name: incongruous-wolf-307
+run_uuid: b535cd90e8ee49e48ebdf97cf735983d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719887022371
+status: 3
+tags: []
+user_id: rawilwgu

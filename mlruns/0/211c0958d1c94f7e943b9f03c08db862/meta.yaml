@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/211c0958d1c94f7e943b9f03c08db862/artifacts
+end_time: 1719884940128
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 211c0958d1c94f7e943b9f03c08db862
+run_name: charming-tern-645
+run_uuid: 211c0958d1c94f7e943b9f03c08db862
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719884929737
+status: 3
+tags: []
+user_id: rawilwgu

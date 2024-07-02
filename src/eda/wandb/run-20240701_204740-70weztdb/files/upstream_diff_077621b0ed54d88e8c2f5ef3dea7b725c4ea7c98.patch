@@ -1,0 +1,100 @@
+diff --git a/conda.yml b/conda.yml
+index e8f87fa..1b0b0c0 100644
+--- a/conda.yml
++++ b/conda.yml
+@@ -8,4 +8,5 @@ dependencies:
+   - hydra-core=1.0.6
+   - pip=20.3.3
+   - pip:
+-      - wandb==0.13.9
+\ No newline at end of file
++      - wandb==0.13.9
++      - databricks_cli==0.18.0
+\ No newline at end of file
+diff --git a/src/basic_cleaning/conda.yml b/src/basic_cleaning/conda.yml
+index f35e98c..1769c66 100644
+--- a/src/basic_cleaning/conda.yml
++++ b/src/basic_cleaning/conda.yml
+@@ -7,3 +7,4 @@ dependencies:
+   - pandas=1.2.3
+   - pip:
+       - wandb==0.13.9
++      - databricks_cli==0.18.0
+diff --git a/src/basic_cleaning/run.py b/src/basic_cleaning/run.py
+index b496452..fe275cd 100644
+--- a/src/basic_cleaning/run.py
++++ b/src/basic_cleaning/run.py
+@@ -54,43 +54,43 @@ if __name__ == "__main__":
+   
+     parser.add_argument(
+         "--input_artifact", 
+-        type = ## INSERT TYPE HERE: str, float or int,
+-        help = ## INSERT DESCRIPTION HERE,
++        type = str,
++        help = "Initial artifact to be cleaned",
+         required = True
+     )
+ 
+     parser.add_argument(
+         "--output_artifact", 
+-        type = ## INSERT TYPE HERE: str, float or int,
+-        help = ## INSERT DESCRIPTION HERE,
++        type = str,
++        help = "Output artifact for cleaned data",
+         required = True
+     )
+ 
+     parser.add_argument(
+         "--output_type", 
+-        type = ## INSERT TYPE HERE: str, float or int,
+-        help = ## INSERT DESCRIPTION HERE,
++        type = str,
++        help = "Type of the output dataset",
+         required = True
+     )
+ 
+     parser.add_argument(
+         "--output_description", 
+-        type = ## INSERT TYPE HERE: str, float or int,
+-        help = ## INSERT DESCRIPTION HERE,
++        type = str,
++        help = "Description of the output dataset",
+         required = True
+     )
+ 
+     parser.add_argument(
+         "--min_price", 
+-        type = ## INSERT TYPE HERE: str, float or int,
+-        help = ## INSERT DESCRIPTION HERE,
++        type = float,
++        help = "Minimum house price to be considered",
+         required = True
+     )
+ 
+     parser.add_argument(
+         "--max_price",
+-        type = ## INSERT TYPE HERE: str, float or int,
+-        help = ## INSERT DESCRIPTION HERE,
++        type = float,
++        help = "Maximum house price to be considered",
+         required = True
+     )
+ 
+diff --git a/src/data_check/conda.yml b/src/data_check/conda.yml
+index aa581fb..960ec1c 100644
+--- a/src/data_check/conda.yml
++++ b/src/data_check/conda.yml
+@@ -9,3 +9,4 @@ dependencies:
+   - pip=20.3.3
+   - pip:
+       - wandb==0.13.9
++      - databricks_cli==0.18.0
+diff --git a/src/train_random_forest/conda.yml b/src/train_random_forest/conda.yml
+index 2335152..550122c 100644
+--- a/src/train_random_forest/conda.yml
++++ b/src/train_random_forest/conda.yml
+@@ -11,3 +11,4 @@ dependencies:
+   - pillow=8.1.2
+   - pip:
+       - wandb==0.13.9
++      - databricks_cli==0.18.0

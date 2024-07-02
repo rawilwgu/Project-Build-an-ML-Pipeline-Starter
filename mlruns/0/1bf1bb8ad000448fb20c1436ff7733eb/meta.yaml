@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1bf1bb8ad000448fb20c1436ff7733eb/artifacts
+end_time: 1719887022265
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1bf1bb8ad000448fb20c1436ff7733eb
+run_name: learned-moth-723
+run_uuid: 1bf1bb8ad000448fb20c1436ff7733eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719886991759
+status: 3
+tags: []
+user_id: rawilwgu

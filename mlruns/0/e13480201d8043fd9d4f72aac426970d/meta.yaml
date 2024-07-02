@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e13480201d8043fd9d4f72aac426970d/artifacts
+end_time: 1719886877779
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e13480201d8043fd9d4f72aac426970d
+run_name: serious-shoat-956
+run_uuid: e13480201d8043fd9d4f72aac426970d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719886861670
+status: 3
+tags: []
+user_id: rawilwgu

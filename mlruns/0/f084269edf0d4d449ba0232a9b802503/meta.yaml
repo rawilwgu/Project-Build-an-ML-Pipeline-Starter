@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f084269edf0d4d449ba0232a9b802503/artifacts
+end_time: 1719887070321
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f084269edf0d4d449ba0232a9b802503
+run_name: brawny-crane-666
+run_uuid: f084269edf0d4d449ba0232a9b802503
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719886919397
+status: 3
+tags: []
+user_id: rawilwgu

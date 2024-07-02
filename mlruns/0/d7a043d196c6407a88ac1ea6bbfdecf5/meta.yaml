@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d7a043d196c6407a88ac1ea6bbfdecf5/artifacts
+end_time: 1719886991652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d7a043d196c6407a88ac1ea6bbfdecf5
+run_name: zealous-trout-584
+run_uuid: d7a043d196c6407a88ac1ea6bbfdecf5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719886952433
+status: 3
+tags: []
+user_id: rawilwgu

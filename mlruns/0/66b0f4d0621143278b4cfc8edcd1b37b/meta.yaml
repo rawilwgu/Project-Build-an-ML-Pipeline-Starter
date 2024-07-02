@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/66b0f4d0621143278b4cfc8edcd1b37b/artifacts
+end_time: 1719886324872
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 66b0f4d0621143278b4cfc8edcd1b37b
+run_name: persistent-wasp-768
+run_uuid: 66b0f4d0621143278b4cfc8edcd1b37b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719886313172
+status: 3
+tags: []
+user_id: rawilwgu

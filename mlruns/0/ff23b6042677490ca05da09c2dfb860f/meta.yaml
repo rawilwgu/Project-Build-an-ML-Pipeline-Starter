@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rawilwgu/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ff23b6042677490ca05da09c2dfb860f/artifacts
+end_time: 1719886529590
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ff23b6042677490ca05da09c2dfb860f
+run_name: sincere-horse-706
+run_uuid: ff23b6042677490ca05da09c2dfb860f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719886520109
+status: 3
+tags: []
+user_id: rawilwgu
